@@ -118,7 +118,7 @@ namespace Presentation.Pages
             else
             {
                 Articles = new List<Article>();
-                Message = "Arama sırasında bir hata oluştu.";
+                Message = "Aranan öğe bulunamadı.";
             }
         }
 
