@@ -85,9 +85,6 @@ Aşağıdaki komutu kullanarak Razor Pages arayüzünü çalıştırın:
 dotnet run --project Presentation
 ```
 
-### **Frontend Kullanıcı Arayüzü**
-Tarayıcınızdan şu adrese giderek arayüze ulaşabilirsiniz: [https://localhost:5001](https://localhost:5001)
-
 ## **Kullanım**
 
 ### **1. Haber Çekme**
