@@ -14,7 +14,7 @@ namespace Infrastructure.Services
 
     public class WebScraperService : IWebScraperService
     {
-        private readonly string _url = "https://www.sozcu.com.tr/spor";
+        private readonly string _url = "https://www.sozcu.com.tr/gundem";
         private readonly IElasticsearchService _elasticsearchService;
 
         public WebScraperService(IElasticsearchService elasticsearchService)

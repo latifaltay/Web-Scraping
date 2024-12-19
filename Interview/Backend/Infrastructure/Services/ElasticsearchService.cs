@@ -19,7 +19,7 @@ namespace Infrastructure.Services
             _client = new ElasticClient(settings);
         }
 
-        public void IndexArticles(IEnumerable<Article> articles)
+        public void IndexArticles(List<Article> articles)
         {
             foreach (var article in articles)
             {
