@@ -47,15 +47,19 @@ Bu proje, [Sozcu](https://www.sozcu.com.tr/) web sitesinden haber başlıkların
 ## **3. Elasticsearch ve Kibana'yı Çalıştırma**
 Bu proje, Elasticsearch ve Kibana'yı çalıştırmak için Docker kullanır. Sağlanan `docker-compose.yml` dosyasını kullanarak servisleri çalıştırabilirsiniz.
 
-### **Konteynerleri Başlatma**
-```bash
-docker-compose up -d
+---
 
+### **Konteynerleri Başlatma**
+```bash  
+docker-compose up -d
+```
+---
 
 ### **Konteynerleri Doğrulama**
 - **Elasticsearch**: [http://localhost:9200](http://localhost:9200)
 - **Kibana**: [http://localhost:5601](http://localhost:5601)
 
+--- 
 
 ## **4. Uygulamayı Yapılandırma**
 - **`appsettings.json`** dosyasını düzenleyin veya doğrudan `ElasticsearchService` içinde bağlantı URL'sini ayarlayın:
@@ -64,7 +68,7 @@ docker-compose up -d
 {
   "ElasticsearchUrl": "http://localhost:9200"
 }
-
+```
 
 
 ## **5. Uygulamayı Çalıştırma**
@@ -73,12 +77,13 @@ docker-compose up -d
 Aşağıdaki komutu kullanarak API'yi başlatın:
 ```bash
 dotnet run --project WebAPI
-
+```
 
 ### **Razor Pages Frontend'i Başlatma**
 Aşağıdaki komutu kullanarak Razor Pages arayüzünü çalıştırın:
 ```bash
 dotnet run --project Presentation
+```
 
 ### **Frontend Kullanıcı Arayüzü**
 Tarayıcınızdan şu adrese giderek arayüze ulaşabilirsiniz: [https://localhost:5001](https://localhost:5001)
@@ -126,7 +131,7 @@ Project
 │   └── Services            # Servislerin implementasyonları
 ├── WebAPI                  # Backend RESTful API
 └── Presentation            # Razor Pages tabanlı frontend
-
+```
 
 ## **Bağımlılıklar**
 
@@ -139,3 +144,4 @@ Project
 Aşağıdaki komutu kullanarak projedeki tüm bağımlılıkları yükleyebilirsiniz:
 ```bash
 dotnet restore
+```
