@@ -31,7 +31,7 @@ namespace Infrastructure.Services
             }
         }
 
-        public List<Article> SearchArticles(string query)
+        public List<Article> ListArticles(string query)
         {
             var searchResponse = _client.Search<Article>(s => s
                 .Index("news")

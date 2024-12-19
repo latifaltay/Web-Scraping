@@ -10,7 +10,7 @@ namespace Infrastructure.Interfaces
     public interface IElasticsearchService
     {
         void IndexArticles(List<Article> articles); 
-        List<Article> SearchArticles(string query);       
+        List<Article> ListArticles(string query);       
         bool DoesArticleExist(string title, string url); 
         List<Article> SearchArticlesWithQuery(string query); 
     }

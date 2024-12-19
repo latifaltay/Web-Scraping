@@ -70,7 +70,7 @@ namespace WebAPI.Controllers
         {
             try
             {
-                var articles = _elasticsearchService.SearchArticles("*");
+                var articles = _elasticsearchService.ListArticles("*");
 
                 if (articles != null && articles.Any())
                 {
