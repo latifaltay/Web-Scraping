@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "WebAPI.Controllers.ArticlesController",
+    "Method": "GetAllArticles",
+    "RelativePath": "api/Articles/GetAllArticles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.ArticlesController",
+    "Method": "GetArticlesByQuery",
+    "RelativePath": "api/Articles/GetArticlesByQuery",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.ArticlesController",
+    "Method": "GetScraping",
+    "RelativePath": "api/Articles/GetScraping",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
